@@ -37,6 +37,9 @@ console.error() error -> rojo con x
 console.debug () msg para desarrollador, no sale en la consola propiamente, sino en el menu de mensajes -> debug
 console.clear() limpia la consola
 
+console.group ("Name del colapsable") -> Empieza a agrupar logs
+console.groupEnd() -> finaliza la agrupación de los logs
+
 - Podemos escribir css dentro de las comillas. Pj:
 
 console.log(`%c${userName}`, "background-color:black; color:white" )
@@ -72,3 +75,5 @@ Swal.fire({
 });
 
 */
+
+
