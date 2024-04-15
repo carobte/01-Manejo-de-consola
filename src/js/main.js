@@ -1,10 +1,10 @@
 
-let userName = "Caro"
-let userLastName = "Bustamante"
-const age = "25 years old"
-const userEmail = "caro.bustamante.escobar@gmail.com"
-let userPhone = 3113506770
-let userAddress = "Envigado"
+let userName = prompt("Enter your username") 
+let userLastName = prompt("Enter your lastname") 
+const age = prompt("Enter your age") 
+const userEmail = prompt("Enter your email") 
+let userPhone = parseInt( prompt("Enter your phone number"))
+let userAddress = prompt("Enter your Address") 
 
 /* Tres formas de escribir console.log */
 console.log("Name: " + userName)
@@ -76,4 +76,10 @@ Swal.fire({
 
 */
 
+/* Arrays */
+
+const coders = ["Lupe Ortiz", "Mateo Duarte", "Maria Antonie"]
+
+console.log(coders)
+console.table(coders)
 
